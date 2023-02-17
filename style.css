@@ -38,20 +38,7 @@ a:hover {
 
 }
 
-.select {
-    position: relative;
-    color: #E1E1E6 !important;
-}
 
-.select::after {
-    content: "";
-    position: absolute;
-    width: 6px;
-    background-color: #8257E5;
-    top: 0;
-    bottom: 0;
-    left: 0;
-}
 
 #blur2 {
     background-image: url(assets/blur-2.png);
@@ -165,6 +152,21 @@ a:hover {
         z-index: 1000;
         visibility: hidden;
         overflow-y: hidden;
+    }
+
+    .select {
+        position: relative;
+        color: #E1E1E6 !important;
+    }
+
+    .select::after {
+        content: "";
+        position: absolute;
+        width: 6px;
+        background-color: #8257E5;
+        top: 0;
+        bottom: 0;
+        left: 0;
     }
 
     #title1,
